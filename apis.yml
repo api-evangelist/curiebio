@@ -1,20 +1,47 @@
 aid: curiebio
 name: Curie.Bio
-description: Curie.Bio is a company surfaced as a portfolio company of a16z, gv and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Curie.Bio is a seed-stage biotech venture firm and drug-discovery co-pilot co-founded by Zach
+  Weinberg (founder of Flatiron Health), Alexis Borisy, and Christoph Lengauer. It pairs seed
+  investment — typically $5M-$7M initial checks, backed by a $380M pro-rata Series A follow-on
+  fund — with hands-on scientific and operational support from a team of experienced drug hunters,
+  helping therapeutics founders design their science and move programs into the clinic and toward
+  a strong next round of financing. Curie.Bio has raised close to $1B and is backed by GV, a16z,
+  and ARCH Venture Partners. It operates as a company/investor profile in the API Evangelist
+  network; it publishes no public developer API or platform, so most technical API artifacts are
+  not applicable to this provider.
 url: https://raw.githubusercontent.com/api-evangelist/curiebio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 - gv
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-identity-no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://curie.bio/wp-content/uploads/2023/01/logo-curiebio.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Venture Capital
+- Biotechnology
+- Life Sciences
+- Drug Discovery
+- Therapeutics
+- Seed Investment
+- Accelerator
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/curiebio-domain-security.yml
 - type: Website
   url: https://curie.bio/
+- type: About
+  url: https://curie.bio/our-team/
+- type: Support
+  url: https://curie.bio/contact-us/
+- type: Careers
+  url: https://curie.bio/careers/
+- type: FounderGuide
+  url: https://curie.bio/founder-guide/
+- type: TermsOfService
+  url: https://curie.bio/terms-of-use
+- type: PrivacyPolicy
+  url: https://curie.bio/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/curie-bio
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
